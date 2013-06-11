@@ -38,3 +38,5 @@ see all of the contacts according to that attribute.
 be deleted.
 8. As a user, if 'exit' is typed, I am exited out of the program and returned to the command
 line.
+
+Test - see if commits are being tracked by Github now.
