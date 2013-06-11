@@ -7,7 +7,11 @@ class TestContact  < Test::Unit::TestCase
 		@example_contact = Contact.new(1001, "Robot", "Smith", "robot@smith.com", "Notes here")
 	end
 	
-	def test_instant_variables_are_pulling_correct_argument
+	def test_contact_has_attributes
 		assert_equal 1001, @example_contact.id
+		assert_equal "Robot", @example_contact.firstname
+		assert_equal "Smith", @example_contact.lastname
+		assert_equal "robot@smith.com", @example_contact.email
+		assert_equal "Notes here", @example_contact.notes
 	end
 end
