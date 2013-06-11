@@ -9,5 +9,26 @@ time.
 =end
 
 class Contact
+	def initialize(id, firstname, lastname, email, notes)
+		@id = id
+		@firstname = firstname
+		@lastname = lastname
+		@email = email
+		@notes = notes
+	end
 
+	def modify_contacts
+	end
+
+	def display_contacts
+		puts "ID:           #{@id}"
+		puts "First name:   #{@firstname}"
+		puts "Last name:    #{@lastname}"
+		puts "Email:        #{@email}"
+		puts "Notes:        #{@notes}"
+	end
 end
+
+# testing display_contacts
+# newcontact = Contact.new(1, "bree", "tree", "esa@dsa.com", "notes1")
+# puts newcontact.display_contacts
