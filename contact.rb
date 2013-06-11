@@ -19,15 +19,11 @@ class Contact
 		@notes = notes
 	end
 
-	def modify_contacts
-	end
+	# def modify_contacts
+	# end
 
 	def display_contacts
-		puts "ID:           #{@id}"
-		puts "First name:   #{@firstname}"
-		puts "Last name:    #{@lastname}"
-		puts "Email:        #{@email}"
-		puts "Notes:        #{@notes}"
+		return "ID:  #{@id}\nFirst name:  #{@firstname}\nLast name:  #{@lastname}\nEmail:  #{@email}\nNotes:  #{@notes}"
 	end
 end
 
