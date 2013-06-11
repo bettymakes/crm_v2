@@ -6,6 +6,9 @@ contacts.
 "modify_contact", "display_all_contacts", "display_particular_contact",
 "display_info_by_attribute" and "delete_contact".
 =end
-class CrmRunner
+class Database
+	def initialize
+
+	end
 
 end

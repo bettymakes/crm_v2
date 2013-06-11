@@ -22,6 +22,6 @@ be deleted.
 line.
 =end
 
-class Database
+class Runner
 
 end
